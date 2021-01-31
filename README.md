@@ -1,5 +1,7 @@
-# ML_Time-Series_EDA
+# Blood Glucose Level Prediction
+- Diabetes is a chronic disease caused by the inability to produce insulin appropriately in the bete cells of the pancreas or to respond appropriately to insulind made by the body's cells
 
-- Real-world 데이터의 EDA 과정 <br>
-- Continuous Glucose Monitoring 디바이스로부터 측정한 EGV(Estimated Glucose Value) 및 환자 기본정보를 통해 15분, 30분, 60분 뒤의 혈당 예측 
+- Thus, this project aims to __predict blood glucose level__ in patients 15, 30 and 60 minutes using the data below.
+  - __Internal Factors__ : EGV (Estimated Glucose Value) from CGM (Continuous Glucose Monitoring) device, height, weight, underlying disease
+  - __External Factors__ : Insulin administration, carbohydrate intake
 
