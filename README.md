@@ -6,4 +6,5 @@
   - __External Factors__ : Insulin administration, carbohydrate intake
 
 - Therefore, raw data is pre-processed so that it can be converted into a table of shapes as shown below 
-<img src="https://github.com/dongsikchoi/Blood-Glucose-Prediction-LSTM/Image/BG_Table.PNG" width="300" height="200"> 
+![BG_Table](https://user-images.githubusercontent.com/52738769/106373392-42c2db80-63bc-11eb-8b64-fea27e8b1a6f.PNG)
+
