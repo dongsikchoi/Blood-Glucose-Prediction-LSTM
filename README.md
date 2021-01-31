@@ -6,5 +6,11 @@
   - __External Factors__ : Insulin administration, carbohydrate intake
 
 - Therefore, raw data is pre-processed so that it can be converted into a table of shapes as shown below 
+
 ![BG_Table](https://user-images.githubusercontent.com/52738769/106373392-42c2db80-63bc-11eb-8b64-fea27e8b1a6f.PNG)
 
+- As can be seen from the above table, three features of insulin, carbohydrates, and Blood Glucose Values are used right now
+
+![BG_Graph](https://user-images.githubusercontent.com/52738769/106373417-a3521880-63bc-11eb-9b5e-424a5504fb78.PNG)
+
+- You can also see beautiful graphs like this
