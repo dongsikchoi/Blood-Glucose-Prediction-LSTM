@@ -1,12 +1,28 @@
-# Blood Glucose Level Prediction
+# Blood Glucose Level Prediction 
 
-## Introduction
+## 1. Introduction
 
-- Diabetes is a chronic disease caused by the inability to produce insulin appropriately in the beta cells of the pancreas or to respond appropriately to insulind made by the body's cells
+- Diabetes is a chronic disease that causes many people to suffer and causes socioeconomic losses.
 
-- Thus, this project aims to __predict blood glucose level__ in patients 15, 30 and 60 minutes(Prediction Horizon) using the data below.
+  - __Type 1 diabetes (T1DM)__ - In case Blood Glucose (BG) control isn't possible due to the inability to produce insulin that lowers BG in β cells in pancreas
+
+  - __Type 2 diabetes (T2DM)__ - Also known as non-insulin dependent diabetes mellitus, which means that insulin production is possible, but cells become resistant to insulin and insulin can't perform its role properly
+
+    
+
+- T2DM patients account for more than 90% of all diabetes patients, but most of the previous studies were conducted on T1DM patients, so we collected data from T2DM patients
+
+
+
+- Thus, this project aims to __predict BG level__ in patients 15, 30 and 60 minutes(Prediction Horizon) using the data below.
   - __Internal Factors__ : EGV (Estimated Glucose Value) from __CGM (Continuous Glucose Monitoring) device__, height, weight, underlying disease
   - __External Factors__ : Insulin administration, carbohydrate intake
+
+---
+
+### 2. Dataset 
+
+---
 
 - Therefore, raw data is pre-processed so that it can be converted into a table of shapes as shown below 
 
