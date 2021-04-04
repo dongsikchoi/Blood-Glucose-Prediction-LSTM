@@ -2,9 +2,9 @@
 
 ## 1. Introduction
 
-- Diabetes is a chronic disease that causes many people to suffer and causes socioeconomic losses.
+- Diabetes is a chronic disease that causes many people to suffer and causes socioeconomic losses and there are two types of diabetes
 
-  - __Type 1 diabetes (T1DM)__ - In case Blood Glucose (BG) control isn't possible due to the inability to produce insulin that lowers BG in β cells in pancreas
+  - __Type 1 diabetes (T1DM)__ - When self-Blood Glucose (BG) control is impossible due to the problem of inability to produce insulin in β cells of the pancreas
 
   - __Type 2 diabetes (T2DM)__ - Also known as non-insulin dependent diabetes mellitus, which means that insulin production is possible, but cells become resistant to insulin and insulin can't perform its role properly
 
@@ -23,6 +23,15 @@
 ### 2. Dataset 
 
 ---
+
+- With cooperation with the university hospital, we collected data from __55 diabetic patients__ who visited or were hospitalized from 2019.05 ~ 2021.03
+- Previous studies often used less than 10 patients or simulated data, so it is sufficiently meaningful that this project used data from 55 diabetic patients
+- Data collected by attaching a CGM device for 5 to 7 consecutive days
+- CGM device - Dexcom G5
+- Sampling rate - 5 minutes 
+- BG is recorded as 'high' if it is over 400 and 'low' if it is less than 60
+
+
 
 - Therefore, raw data is pre-processed so that it can be converted into a table of shapes as shown below 
 
