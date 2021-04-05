@@ -177,8 +177,22 @@ __< "Developing an individual Glucose Prediction Model Using Recurrent Neural Ne
      | selection_type                    | roulette        |
      | max_iteration_without_improvement | None            |
 
+#### 3.4. Baseline - ARIMA (Autoregressive Integrated Moving Average) Model
+
+- The ARIMA model is a traditional time series forecasting methodology
+- In real-time, time series data are often non-stationary, but AR(p), MA(q), and ARMA(p, q) models cannot explain this non-stationary
+- Therefore, model including the process of eliminating this non-stationary is the ARIMA(p,d,q) model
 
 
-## Results
+
+- However, if the ARIMA model is used without any preset, t + 5, t + 10, t + 15, ... at a fixed point in time __t__ only these predictions are 
+
+![new](https://user-images.githubusercontent.com/52738769/113549428-5bee3f80-962c-11eb-8214-e726d73dbeb0.png)
+
+
+
+![file2](https://user-images.githubusercontent.com/52738769/113549448-66a8d480-962c-11eb-8289-18c8d8e4a1c7.png)
+
+## 4. Results
 
 ![BG_Prediction_Graph](https://user-images.githubusercontent.com/52738769/106373572-35a6ec00-63be-11eb-82a0-9d7fd53344ee.PNG)
