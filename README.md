@@ -76,7 +76,7 @@
 
 ![2_framework](https://user-images.githubusercontent.com/52738769/113535952-c9d83e00-960f-11eb-8ad5-4d8cec4f6726.PNG)
 
- <"Developing an individual Glucose Prediction Model Using Recurrent Neural Network"> [reference link](https://www.mdpi.com/1424-8220/20/22/6460)
+__< "Developing an individual Glucose Prediction Model Using Recurrent Neural Network" > __[reference link](https://www.mdpi.com/1424-8220/20/22/6460)
 
 - The above research framework is a univariate prediction model using only CGM data as input variables
 - On the other hand, in this study, there are following developments:
@@ -99,7 +99,7 @@
 
   ![3_description](https://user-images.githubusercontent.com/52738769/113537698-5dac0900-9614-11eb-83f1-7ac5a6d0f3a9.PNG)
 
-   <"Developing an individual Glucose Prediction Model Using Recurrent Neural Network"> [reference link](https://www.mdpi.com/1424-8220/20/22/6460)
+   __< "Developing an individual Glucose Prediction Model Using Recurrent Neural Network" >__ [reference link](https://www.mdpi.com/1424-8220/20/22/6460)
 
   - Lookback : How many minutes ago we want to use the BG as the input variable
 
@@ -113,7 +113,7 @@
 
   ![4_lookback](https://user-images.githubusercontent.com/52738769/113538473-5128b000-9616-11eb-994c-fd4f020d2f70.PNG)
 
-  <"Artificial Neural Network Algorithm for Online Glucose Prediction from Continuous Glucose Monitoring">[reference link](https://doi.org/10.1089/dia.2009.0076)
+  __< "Artificial Neural Network Algorithm for Online Glucose Prediction from Continuous Glucose Monitoring" >__[reference link](https://doi.org/10.1089/dia.2009.0076)
 
 - We applied lookback values to the model by varying them, such as 3, 6, 9, 12, and each showed no significant difference in performance, so we thought 6 was the best fit
 
@@ -152,34 +152,32 @@
   3. Our aim is to find the weight combination that minimizes the RMSE 
 
      
-     $$
-     Result = \widehat{Model1} * w_{1} + \widehat{Model2} * w_{2} +\widehat{Model3} * w_{3} + \widehat{Model4} * w_{4} + \widehat{Model5} * w_{5}\\
-     RMSE = \sqrt{(\frac{1}{n})\sum_{i=1}^{n}(Result_{i} - actualBG_{i})^{2}}
-     $$
-     
+
+     ![for](https://user-images.githubusercontent.com/52738769/113544736-d5cdfb00-9623-11eb-948c-926b4294a925.png)
 
   4. The constraints of each weight are as follows. 
 
      
-     $$
-     a) 0.05<w_{i}<0.5\\
-     b) 0.99 < w_{1} + w_{2} +w_{3}+w_{4}+w_{5} <1
-     $$
+
+     ![for2](https://user-images.githubusercontent.com/52738769/113544779-ea11f800-9623-11eb-9c49-92ccd70a9a3e.png)
+
      
 
-```
-| Parameter_Name |Parameter_value|
-|:--- | ---: |
-| Num_iteration             |25000      | 
-| Population_Size           | 100            | 
-| mutation_probability           | 0.1           | 
-| elit_ratio           | 0.01         | 
-| crossover_probability           | 0.5      | 
-| parents_portion           | 0.3      | 
-| crossover_type           | uniform           | 
-| selection_type           | roulette            | 
-| max_iteration_without_improv           | None            | 
-```
+     __Parameters used in GA__
+
+     | Parameter_Name                    | Parameter_value |
+     | --------------------------------- | --------------- |
+     | Num_iteration                     | 25000           |
+     | Population_Size                   | 100             |
+     | mutation_probability              | 0.1             |
+     | elit_ratio                        | 0.01            |
+     | crossover_probability             | 0.5             |
+     | parents_portion                   | 0.3             |
+     | crossover_type                    | uniform         |
+     | selection_type                    | roulette        |
+     | max_iteration_without_improvement | None            |
+
+
 
 ## Results
 
