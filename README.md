@@ -196,3 +196,21 @@ __< "Developing an individual Glucose Prediction Model Using Recurrent Neural Ne
 ## 4. Results
 
 ![BG_Prediction_Graph](https://user-images.githubusercontent.com/52738769/106373572-35a6ec00-63be-11eb-82a0-9d7fd53344ee.PNG)
+
+
+
+![worst_15_gru](https://user-images.githubusercontent.com/52738769/117524225-9bc39080-aff7-11eb-8322-c10e4e8f2d01.png)
+
+
+
+
+
+
+
+![worst_15_ga_table](https://user-images.githubusercontent.com/52738769/117524338-ee04b180-aff7-11eb-9ef9-a0ce1c304680.PNG)
+
+
+
+Result example of __worst case__ - PH = 15 minutes, which implemented GA ensemble weight optimization , Clarke Error Grid Anylsis
+
+![2_worst_15_GA_plot](https://user-images.githubusercontent.com/52738769/117524294-cada0200-aff7-11eb-983f-af3b847e1417.png)
