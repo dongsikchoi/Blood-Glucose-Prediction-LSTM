@@ -1,5 +1,5 @@
 # Blood Glucose Level Prediction 
-
+https://doi.org/10.1155/2022/7902418
 ## 1. Introduction
 
 - Diabetes is a chronic disease that causes many people to suffer and causes socioeconomic losses and there are two types of diabetes
